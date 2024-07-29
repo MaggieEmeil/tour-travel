@@ -1,0 +1,50 @@
+@media only screen and (max-width: 480px)
+{
+  .container{
+   display: grid;
+
+  }
+  /* header img{
+    margin-right: 100px;
+  } */
+  header i {
+    visibility: visible;
+    font-size:24px;
+  }
+  header nav{
+    visibility: hidden;
+  }
+  .section-1{
+    width: 100%;
+    gap: 20%;
+  }
+  .section-1 .logo{
+    /* flex-flow:column wrap; */
+  flex-flow: column;
+
+  }
+  .section-1 .holiday-form .form .locaion{
+    width: 70%;
+  }
+
+  .section-1 .holiday-form button{
+flex-flow: column;
+  }
+}
+@media only screen and (max-width: 768px){
+.container{
+  
+}
+header i {
+  visibility: visible;
+  font-size:24px;
+}
+header nav{
+  visibility: hidden;
+}
+.section-1 .logo{
+  /* flex-flow:column wrap; */
+flex-flow: column;
+
+}
+}

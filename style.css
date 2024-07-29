@@ -5,7 +5,7 @@
 }
 .container{
     min-height: 100vh;
-    display: grid;
+    /* display: grid; */
 }
 header{
     display: flex;
@@ -18,7 +18,10 @@ header{
 header img{
     width: 41px;
     height: 41px;
-    margin-right: 450px;   
+    /* margin-right: 450px;    */
+}
+header i{
+   visibility: hidden;
 }
 nav{
     display: flex;
@@ -26,6 +29,7 @@ nav{
     align-items:center;
     width: 600px;
     height: 60px;
+    visibility: visible;
 }
 header nav ul{
     list-style: none;
